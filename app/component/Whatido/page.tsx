@@ -30,7 +30,7 @@ const page = () => {
             {
                 data.map((el:any) => (
                  <div key={el.id} className='flex gap-2'>
-                    <div className='w-[40px] h-[40px] text-[14px] md:w-[50px] md:h-[50px] rounded-full border-2 flex justify-center items-center md:text-[20px] text-green-400'>
+                    <div className='text-[14px] w-[50px] h-[50px] rounded-full border-2 flex justify-center items-center md:text-[20px] text-green-400'>
                     {el.icon}
                     </div>
                     <div className='w-[250px] '>

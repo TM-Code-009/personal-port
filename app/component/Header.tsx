@@ -72,7 +72,7 @@ const Header = () => {
    <div className='flex justify-end'>
           {toggle && (
             <div
-              className={`flex flex-col w-[50%]  items-start bg-black px-6 py-5  h-[50vh] absolute top-[80px]   gap-5 lg:hidden  `}
+              className={`flex flex-col w-[70%]  items-start bg-black px-6 py-5  h-[50vh] absolute top-[80px]   gap-5 lg:hidden  `}
             >
               {data.map((el: any) => (
                 <Link
