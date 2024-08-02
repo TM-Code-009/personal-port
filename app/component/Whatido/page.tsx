@@ -24,18 +24,18 @@ const page = () => {
         }
     ]
   return (
-    <div className='w-full min-h-[230px] flex justify-center items-center pt-3 flex-col gap-5 bg-neutral-900 '>
+    <div className='w-full min-h-[230px] flex justify-center items-center pt-3 flex-col gap-5 bg-neutral-900  '>
         <p className='text-[30px] font-semibold text-white '>What i do</p>
         <div className='w-full flex justify-between p-6 flex-col lg:flex-row gap-10'>
             {
                 data.map((el:any) => (
                  <div key={el.id} className='flex gap-2'>
-                    <div className='w-[50px] h-[50px] rounded-full border-2 flex justify-center items-center text-[20px] text-green-400'>
+                    <div className='w-[40px] h-[40px] text-[14px] md:w-[50px] md:h-[50px] rounded-full border-2 flex justify-center items-center md:text-[20px] text-green-400'>
                     {el.icon}
                     </div>
                     <div className='w-[250px] '>
-                        <p className='text-white text-[20px] font-semibold'>{el.title}</p>
-                        <p className='text-white text-[12px] w-[180px]'>{el.description}</p>
+                        <p className='text-white text-[12px] md:text-[20px] font-bold'>{el.title}</p>
+                        <p className='text-white text-[10px] md:text-[12px] w-[180px]'>{el.description}</p>
                     </div>
                  </div>
                 ))

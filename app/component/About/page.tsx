@@ -45,7 +45,7 @@ const data = [
         <div className='w-full lg:w-[40%] flex flex-wrap p-4 justify-center items-center gap-x-7 gap-y-4 '>
            {
             data.map((el) => (
-                <div key={el.id} className='text-[100px] flex justify-center items-center text-white'>
+                <div key={el.id} className='sm:text-[100px] text-[70px] flex justify-center items-center text-white'>
                     {el.icon}
                 </div>
             ))
