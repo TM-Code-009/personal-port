@@ -35,7 +35,7 @@ const page = () => {
                     </div>
                     <div className='w-[250px] '>
                         <p className='text-white text-[12px] md:text-[20px] font-bold'>{el.title}</p>
-                        <p className='text-white text-[10px] md:text-[12px] w-[180px]'>{el.description}</p>
+                        <p className='text-white text-[10px] md:text-[12px] w-[200px]'>{el.description}</p>
                     </div>
                  </div>
                 ))
