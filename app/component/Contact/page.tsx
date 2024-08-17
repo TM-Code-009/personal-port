@@ -30,7 +30,7 @@ const page = () => {
                   data.map((el:any) => (
                     <div key={el.id} className='flex gap-2  items-center'>
                          <div className='w-[40px] h-[40px] flex justify-center items-center rounded-full border-2 text-green-400'>{el.icon}</div>
-                         <div className='text-white'>{el.desc}</div>
+                         <div className='text-[14px] text-white'>{el.desc}</div>
                     </div>
                   ))
                 }

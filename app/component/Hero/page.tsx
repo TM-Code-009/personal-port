@@ -11,7 +11,7 @@ const page = () => {
         <p className='text-white text-[14px] lg:text-[20px] text-center'>A Freelancer Software-Engineer</p>
     </div>
     <div>
-       <Image src={logo} alt='' width={1000} height={1000} className='lg:h-[500px] lg:w-[500px] h-[200px] w-[200px] object-cover border-2 rounded-full'/>
+       <Image src={logo} alt='' width={1000} height={1000} className='lg:h-[400px] lg:w-[400px] h-[200px] w-[200px] object-cover border-2 rounded-full'/>
     </div>
      </main>
   )
