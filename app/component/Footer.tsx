@@ -13,7 +13,7 @@ const Footer = () => {
         {
             id:2,
             icon:<FaInstagram />,
-            url:"https://www.instagram.com/terry_mike__/?hl=en#"
+            url:"https://www.instagram.com/terry_osakwe/"
         },
         {
             id:3,
