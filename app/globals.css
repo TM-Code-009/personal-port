@@ -2,10 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.header{ 
-    color : white,
-  
-} :hover{
-    color: white;
-    text-decoration: underline green 2px,
-};

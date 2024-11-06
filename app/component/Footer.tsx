@@ -30,7 +30,10 @@ const Footer = () => {
             {
                 data.map((el:any) => (
                     <Link href={el.url} key={el.id} >
-                       <div className='text-white relative hover:text-green-400 hover:transition-all  hover:bottom-5 '>{el.icon}</div> 
+                       <div className='text-white relative 
+                       transition-all 
+                       hover:text-green-400 hover:bottom-2  
+                        '>{el.icon}</div> 
                     </Link>    
                 ))
             }

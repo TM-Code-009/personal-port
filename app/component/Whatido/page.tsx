@@ -21,28 +21,10 @@ const page = () => {
             title: 'Responsiveness',
             description: "I specialize in creating responsive and user-friendly",
             icon: <FaMobile />
-        },
-        {
-            id:4,
-            title: 'Responsiveness',
-            description: "I specialize in creating responsive and user-friendly",
-            icon: <FaMobile />
-        },
-        {
-            id:5,
-            title: 'Responsiveness',
-            description: "I specialize in creating responsive and user-friendly",
-            icon: <FaMobile />
-        },
-        {
-            id:6,
-            title: 'Responsiveness',
-            description: "I specialize in creating responsive and user-friendly",
-            icon: <FaMobile />
-        },
+        }
     ]
   return (
-    <div className='w-full min-h-[230px] flex justify-center items-center pt-3 flex-col gap-5 bg-neutral-900  '>
+    <div className=' w-full min-h-[230px] flex justify-center items-center pt-3 flex-col bg-neutral-900 '>
         <p className='text-[30px] font-semibold text-white '>What i do</p>
         <div className='w-full flex justify-between p-6 lg:flex-row gap-5 flex-wrap '>
             {

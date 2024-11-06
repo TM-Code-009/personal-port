@@ -42,7 +42,7 @@ const page = () => {
             <input type="text" className='w-[270px] lg:w-[400px] h-[40px] outline-none border bg-inherit p-2'placeholder='Your Email' />
             <input type="text" className='w-[270px] lg:w-[400px] h-[40px] outline-none border bg-inherit p-2'placeholder='Purpose of email' />
             <textarea className='h-[120px] w-[270px] lg:w-[400px] bg-inherit border p-2 outline-none resize-none ' placeholder='Your Message' ></textarea>
-            <button className='w-[270px] lg:w-[400px] h-[40px] flex justify-center items-center font-semibold text-[14px] bg-green-400'>Send Message</button>
+            <button className='w-[270px] lg:w-[400px] h-[40px] flex justify-center items-center font-semibold text-[14px] bg-green-400 hover:bg-neutral-900 hover:border '>Send Message</button>
          </div>
      </main>
   )
