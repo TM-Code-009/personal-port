@@ -1,9 +1,9 @@
 "use client"
 import Image from 'next/image'
-import  { useState } from 'react'
 import img from "../../../public/hero1.jpg"
 import img1 from "../../../public/hero.jpg"
 import { MdCancel } from 'react-icons/md'
+import { useState } from 'react'
 
 const page = () => {
    const [toggle,setToggle] = useState(true)
