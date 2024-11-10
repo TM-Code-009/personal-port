@@ -1,8 +1,9 @@
 import React from 'react'
+import { DiMongodb } from 'react-icons/di'
 import { FaNodeJs } from 'react-icons/fa'
-import { IoLogoCss3, IoLogoFigma, IoLogoHtml5, IoLogoReact } from 'react-icons/io5'
+import {IoLogoFigma} from 'react-icons/io5'
 import { RiNextjsFill } from 'react-icons/ri'
-import { SiTailwindcss, SiVite } from 'react-icons/si'
+import { SiExpress, SiTailwindcss, SiTypescript, SiVite } from 'react-icons/si'
 
 const page = () => {
 const data = [
@@ -24,7 +25,7 @@ const data = [
     },
     {
         id:5,
-        icon:<IoLogoReact />
+        icon:<SiExpress />
 
     },
     {
@@ -34,12 +35,12 @@ const data = [
     },
     {
         id:7,
-        icon:<IoLogoHtml5 />
+        icon:<SiTypescript/>
 
     },
     {
         id:8,
-        icon:<IoLogoCss3 />
+        icon:<DiMongodb />
 
     },
 ]
