@@ -6,7 +6,7 @@ import { MdCancel } from 'react-icons/md'
 import { useState } from 'react'
 
 const page = () => {
-   const [toggle,setToggle] = useState(true)
+   const [toggle,setToggle] = useState(false)
   return (
      <main className='w-full h-[400px] lg:h-screen flex items-center justify-center relative'>
       <div className='h-[400px] lg:h-full w-full absolute'>
@@ -60,7 +60,7 @@ const page = () => {
                </div>
 
             </div>
-         </div>):""
+         </div>):("")
       }
     
      </main>
